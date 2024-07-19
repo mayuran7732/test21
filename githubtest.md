@@ -1,5 +1,11 @@
 npm i typescript -g
 tsc main.ts
+tsc main.ts -w
+tsc --init //initiate tsconfig
+"rootDir": "./src", //source
+"outDir": "./build/js",  // create js folder and save tempjs
+tsc -w  //watch all
+"include": ["src/**/*.ts"], in tscofig for avoind main.ts compailation
 
 
 git config --global user.email "mayuran23412@gmail.com"
