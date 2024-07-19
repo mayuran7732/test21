@@ -6,6 +6,10 @@ tsc --init //initiate tsconfig
 "outDir": "./build/js",  // create js folder and save tempjs
 tsc -w  //watch all
 "include": ["src/**/*.ts"], in tscofig for avoind main.ts compailation
+"noEmitOnError": true,   /* Disable emitting files if any type checking errors are reported. */
+
+
+
 
 
 git config --global user.email "mayuran23412@gmail.com"
